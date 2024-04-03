@@ -7,6 +7,7 @@
 /*flex*/
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .row{
