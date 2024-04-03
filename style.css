@@ -7,7 +7,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -57,7 +57,7 @@ body{
     color: black;
     font-size: 14px;
     text-decoration: none;
-    
+
 }
 
 /*container class*/
@@ -79,18 +79,26 @@ body{
     margin: 0 auto;
 }
 
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
 /*border-col*/
-.col-20,
+/* .col-20,
 .col-25,
 .col-30,
 .col-34,
 .col-40,
-/*.col-50,*/
+.col-50,*/
+.col-m-33,
 .col-60,
 .col-70,
 .col-100  {
-    border: 1px dotted black;
-}
+    border: 0.5px dotted silver;
+} 
 
 /*layout class*/
 .col-20{
@@ -103,8 +111,7 @@ body{
     width: 30%;
 }
 .col-m-33{
-    width: calc(100% / 3 - 6px);
-    margin: 3px;
+    width: calc(100% / 3 - 9px);
 }
 .col-33{
     width: calc(100% / 3);
@@ -120,6 +127,9 @@ body{
 }
 .col-70{
     width: calc(70% - 2px);
+}
+.col-75{
+    width: 75%;
 }
 .col-80{
     width: calc(80% - 2px);
@@ -296,4 +306,9 @@ body{
 }
 .bg-brown{
     background-color: brown;
+}
+
+/*margin-bottom*/
+.mb-border{
+    border-bottom: 1px solid silver;
 }

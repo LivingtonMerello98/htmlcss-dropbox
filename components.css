@@ -3,6 +3,11 @@
     height: auto;
 }
 
+.jumbo{
+    width: 900px;
+    height: auto;
+}
+
 /*btn*/
 header .btn{
     background-color: #0061FF ;
@@ -12,3 +17,77 @@ header .btn{
     padding: 5px 10px;
     margin-left: 15px;
 }
+
+.btn{
+    background-color: #0061FF ;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    padding: 10px 15px;
+}
+
+/*background-color hero and sixth section*/
+.bg-beau-blue{
+    background-color: #B4D0E7;
+}
+
+/*h1 hero section*/
+h1{
+    font-weight: 800;
+    font-size: 75px ;
+}
+h2{
+    font-weight: 800;
+    font-size: 32px ;
+}
+
+.hero-text-container{
+    line-height: 24px;
+}
+
+/*check-box style*/
+
+.checkbox-container {
+    /* display: flex;
+    align-items: center; */
+  }
+
+  .checkbox-container input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%; 
+    border: 2px solid silver;
+    background-color:  #0061FF  ;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .checkbox-container input[type="checkbox"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .checkbox-text {
+    font-size: 16px;
+  }
+
+  .gap{
+    column-gap: 12px;
+  }
+
+  .user{
+    width: 20px;
+    height: auto;
+  }
