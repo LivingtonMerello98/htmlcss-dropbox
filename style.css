@@ -60,7 +60,7 @@
     width: calc(40% - 2px);
 }
 .col-50{
-    width: calc(50% - 2px);
+    width: 50%;
 }
 .col-60{
     width: calc(60% - 2px);
