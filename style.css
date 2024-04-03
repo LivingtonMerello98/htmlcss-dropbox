@@ -50,6 +50,70 @@
 .col-100{
     width: 100%;
 }
+
+/*height width class*/
+.height-xl {
+    height: 500px;
+}
+
+.height-l {
+    height: 300px;
+}
+
+.height-m {
+    height: 100px;
+}
+
+.height-sm {
+    height: 30px;
+}
+
+.width-xl {
+    width: 500px;
+}
+
+.width-l {
+    width: 300px;
+}
+
+.width-m {
+    width: 100px;
+}
+
+.width-sm {
+    width: 30px;
+}
+
 /*py-px class*/
 
 /*color class*/
+.bg-red{
+    background-color: red;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-silver{
+    background-color: silver;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-violet{
+    background-color: violet;
+}
+.bg-grey{
+    background-color: grey;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-brown{
+    background-color: brown;
+}
