@@ -41,8 +41,11 @@
 /*border-col*/
 .col-20,
 .col-25,
+.col-30,
 .col-34,
+.col-40,
 .col-50,
+.col-60,
 .col-70,
 .col-100  {
     border: 1px dotted black;
@@ -54,6 +57,9 @@
 }
 .col-25{
     width: calc(25% - 2px);
+}
+.col-30{
+    width: 30%;
 }
 .col-33{
     width: calc(100% / 3 - 6px);
