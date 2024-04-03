@@ -1,0 +1,14 @@
+.logo{
+    width:90px;
+    height: auto;
+}
+
+/*btn*/
+header .btn{
+    background-color: #0061FF ;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
