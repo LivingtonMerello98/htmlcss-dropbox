@@ -25,6 +25,14 @@ header .btn{
     border: 0;
     padding: 10px 15px;
 }
+.btn-white{
+    background-color: #ffffff ;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border: 0;
+    padding: 10px 15px;
+    border: 1px solid grey;
+}
 
 /*background-color hero and sixth section*/
 .bg-beau-blue{
@@ -41,7 +49,7 @@ h2{
     font-size: 32px ;
 }
 
-.hero-text-container{
+.line-h-24{
     line-height: 24px;
 }
 
@@ -102,10 +110,21 @@ h2{
   }
 
   .min-height{
-    min-height: 900px;
+    min-height: 1000px;
   }
 
   /* hr width*/
   .w-hr{
     width:15%;
+  }
+
+  /*img */
+  .img-container img{
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  /*width 50% */
+  .w-30{
+    width: 40%;
   }
