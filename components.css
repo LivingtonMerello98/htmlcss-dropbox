@@ -67,7 +67,7 @@ h2{
     height: 20px;
     border-radius: 50%; 
     border: 2px solid silver;
-    background-color:  #0061FF  ;
+    background-color: #fff  ;
     outline: none;
     cursor: pointer;
     margin-right: 10px;
@@ -78,7 +78,7 @@ h2{
     content: "";
     width: 10px;
     height: 10px;
-    background-color: white;
+    background-color:  #0061FF;
     border-radius: 50%;
     position: absolute;
     top: 50%;
