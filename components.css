@@ -109,8 +109,12 @@ h2{
     font-weight: 300;
   }
 
-  .min-height{
+/*min-height*/
+  .min-height-xl{
     min-height: 1000px;
+  }
+  .min-height-l{
+    min-height: 400px;
   }
 
   /* hr width*/
@@ -127,4 +131,19 @@ h2{
   /*width 50% */
   .w-30{
     width: 50%;
+  }
+/*list-container footer*/
+  .text-white{
+    color:white;
+  }
+
+  .list-container ul li{
+    color: white;
+    font-size: 14px;
+  }
+
+  .lang-container{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
   }
