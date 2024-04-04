@@ -397,9 +397,12 @@ body{
     background-color: brown;
 }
 
-/*margin-bottom*/
+/*margin-border*/
 .mb-border{
     border-bottom: 1px solid rgba(192, 192, 192, 0.363);
+}
+.mt-border{
+    border-top: 1px solid rgba(192, 192, 192, 0.363);
 }
 /*vertical-align*/
 .align-middle{
