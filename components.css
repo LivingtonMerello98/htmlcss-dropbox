@@ -52,6 +52,9 @@ h2{
 .line-h-24{
     line-height: 24px;
 }
+.line-h-20{
+    line-height: 20px;
+}
 
 /*check-box style*/
 
@@ -153,10 +156,9 @@ h2{
     padding: 0px 10px;
   }
 
-  .square-container{
-    width:100%;
-    min-height:300px;
-  }
+  /* .square-container{
+
+  } */
   .square{
     width: calc(100% / 2);
     min-height: 200px;
@@ -166,6 +168,10 @@ h2{
   }
 
   .square img{
+    max-width: 50%;
+  }
+
+  .design{
     max-width: 50%;
   }
 
