@@ -4,7 +4,7 @@
 }
 
 .jumbo{
-    width: 900px;
+    width: 95%;
     height: auto;
 }
 
@@ -48,8 +48,7 @@ h2{
 /*check-box style*/
 
 .checkbox-container {
-    /* display: flex;
-    align-items: center; */
+    vertical-align: middle;
   }
 
   .checkbox-container input[type="checkbox"] {
@@ -87,7 +86,26 @@ h2{
     column-gap: 12px;
   }
 
-  .user{
-    width: 20px;
+  .icon{
+    width: 40px;
     height: auto;
+  }
+
+  .weight-800{
+    font-weight: 800;
+  }
+  .weight-400{
+    font-weight: 400;
+  }
+  .weight-300{
+    font-weight: 300;
+  }
+
+  .min-height{
+    min-height: 900px;
+  }
+
+  /* hr width*/
+  .w-hr{
+    width:15%;
   }

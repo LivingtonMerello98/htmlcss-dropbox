@@ -1,163 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="components.css">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-        <!-- header -->
-        <header class="py-20 ">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="components.css">
+      <title>Document</title>
+   </head>
+   <body>
+      <main>
+         <!-- header -->
+         <header class="py-20 ">
             <div class="container-max">
-                <div class="row">
-                    <div class="col-50 d-flex">
-                        <div class="logo-container">
-                            <img src="./img/logo-small.png" alt="logo" class="logo">
-                        </div>
-                        <ol class="unstyled-list ml-30">
-                            <li>Perchè Dropbox</li>
-                            <li>Funzioni</li>
-                            <li>Piani e prezzi</li>
-                        </ol>
-                    </div>
-                    <div class="col-50 text-right">
-                        <ol class="unstyled-list ml-30">
-                            <li>Supporto</li>
-                            <li>Contatta l'ufficio vendite</li>
-                            <li>Accedi</li>
-                            <li><button class="btn">Inizia</button></li>
-                        </ol>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-50 d-flex">
+                     <div class="logo-container">
+                        <img src="./img/logo-small.png" alt="logo" class="logo">
+                     </div>
+                     <ul class="unstyled-list ml-30">
+                        <li>Perchè Dropbox</li>
+                        <li>Funzioni</li>
+                        <li>Piani e prezzi</li>
+                     </ul>
+                  </div>
+                  <div class="col-50 text-right">
+                     <ul class="unstyled-list ml-30">
+                        <li>Supporto</li>
+                        <li>Contatta l'ufficio vendite</li>
+                        <li>Accedi</li>
+                        <li><button class="btn">Inizia</button></li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </header>
-        <!-- hero -->
-        <div class="py-20 bg-beau-blue">
+         </header>
+         <!-- hero -->
+         <div class="py-20 bg-beau-blue">
             <div class="container">
-                <div class="row">
-                    <div class="col-100 py-30">
-                        <h1>Tutto ciò che ti serve per il tuo lavoro, in unico posto</h1>
-                    </div>
-                    <div class="col-25">
-                        <div class="hero-text-container">
-                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
-                            Dropbox Busisness è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
-                        </div>
-                        <div class="cta-container py-60">
-                            <button class="btn">
-                                Inizia la tua prova gratuita
-                            </button>
-                        </div>
-                        <span class="py-40">Annulla in qualsiasi momento</span>
-                        <div class="row-container mt-40">
-                            <img src="./img/Arrow 1.svg" alt="reverse-arrow">
-                        </div>
-                    </div>
-                    <div class="col-75 relative">
-                        <img src="./img/jumbo.png" alt="hero_image" class="jumbo absolute">
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-100 py-30">
+                     <h1>Tutto ciò che ti serve per il tuo lavoro, in unico posto</h1>
+                  </div>
+                  <div class="col-25">
+                     <div class="hero-text-container">
+                        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
+                        Dropbox Busisness è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                     </div>
+                     <div class="cta-container py-60">
+                        <button class="btn">
+                        Inizia la tua prova gratuita
+                        </button>
+                     </div>
+                     <span class="py-40">Annulla in qualsiasi momento</span>
+                     <div class="row-container mt-40">
+                        <img src="./img/Arrow 1.svg" alt="reverse-arrow">
+                     </div>
+                  </div>
+                  <div class="col-75 relative">
+                     <img src="./img/jumbo.png" alt="hero_image" class="jumbo absolute">
+                  </div>
+               </div>
             </div>
-        </div>
-        <!-- first-section -->
-        <div class="py-60">
+         </div>
+         <!-- first-section -->
+         <div class="py-60">
             <div class="container">
-                <div class="row gap">
-                    <div class="col-100 py-60 ">
-                        <h2>Trova il piano busisness che fa per te</h2>
-                    </div>
-                    <div class="col-100 py-40">
-                        <label class="checkbox-container">
-                            <input type="checkbox">
-                            <span class="checkbox-text">Fatturazione mensile</span>
-                        </label>
-                        <label class="checkbox-container ml-30">
-                            <input type="checkbox">
-                            <span class="checkbox-text">Fatturazione annuale</span>
-                        </label>
-                    </div>
-                    <div class="col-m-33 height-xl">
-                        <div class="header-class py-20 text-center mb-border">
-                            <img src="./img/user_svgrepo.com.svg" alt="user" class="user">
+               <div class="row gap">
+                  <div class="col-100 py-60 ">
+                     <h2>Trova il piano busisness che fa per te</h2>
+                  </div>
+                  <div class="col-100 py-40">
+                     <label class="checkbox-container">
+                     <input type="checkbox">
+                     <span class="checkbox-text">Fatturazione mensile</span>
+                     </label>
+                     <label class="checkbox-container ml-30">
+                     <input type="checkbox">
+                     <span class="checkbox-text">Fatturazione annuale</span>
+                     </label>
+                  </div>
+                  <!-- first-card -->
+                  <div class="col-m-33 height-xl border min-height">
+                     <div class="header-col py-20 text-center mb-border">
+                        <i class="fa-solid fa-user" style="color: #000000;"></i>
+                        <span class="">Singolo</span>
+                     </div>
+                     <div class="pxy-60-30">
+                        <h3 class=" mb-20">Professional</h3>
+                        <span class="weight-800 d-block py-10">&euro;12.00</span>
+                        <span class="d-block weight-300">/mese</span>
+                        <div class="list my-40">
+                           <ul class=" card-list unstyled-list">
+                              <li class="d-block py-10 align-middle"><i class="fa-solid fa-user" style="color: #000000;"></i><span class="align-middle ml-10">1 utente</span></li>
+                              <li class="d-block py-10 vmiddle"><i class="fa-solid fa-folder" style="color: #000000;"></i><span class="align-middle ml-10">5TB di spazio di archiviazione sicuro</span></li>
+                              <li class="d-block py-10 vmiddle"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i><span class="align-middle ml-10">funzione di rpoduttività premium e condivisione file semplice e sicura</span></li>
+                           </ul>
                         </div>
-                    </div>
-                    <div class="col-m-33 height-xl"></div>
-                    <div class="col-m-33 height-xl"></div>
-                    <div class="col-100 mt-10 py-20 bg-yellow"></div>
-                    <div class="col-100 py-50 bg-yellow"></div>
-                </div>
+                        <div class="button-container mb-30">
+                           <div class="btn text-center">Prova gratis per 30 giorni</div>
+                        </div>
+                        <span class="d-block">oppure <a href="">acquista ora</a></span>
+                        <hr class="border w-hr mt-30">
+                        <h3 class="py-40">Punti Salienti del piano</h3>
+                        <ul class="unstyled-list">
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">inviare file fino a 100GB con Dropbox Transfert</span></li>
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Cartello offline su dispositivi mobili</span></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- second card -->
+                  <div class="col-m-33 height-xl min-height">
+                     <div class="header-col py-20 text-center mb-border">
+                        <i class="fa-solid fa-users" style="color: #000000;"></i>
+                        <span class="">Team</span>
+                     </div>
+                     <div class="pxy-60-30">
+                        <h3 class=" mb-20">Advanced</h3>
+                        <span class="weight-800 d-block py-10">&euro;18.00</span>
+                        <span class="d-block weight-300">/mese</span>
+                        <div class="list my-40">
+                           <ul class=" card-list unstyled-list">
+                              <li class="d-block py-10 align-middle"><i class="fa-solid fa-user" style="color: #000000;"></i><span class="align-middle ml-10">3 o più utenti</span></li>
+                              <li class="d-block py-10 vmiddle"><i class="fa-solid fa-folder" style="color: #000000;"></i><span class="align-middle ml-10">Tutto lo spazio di cui ha bisogno il tuo team</span></li>
+                              <li class="d-block py-10 vmiddle"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i><span class="align-middle ml-10">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span></li>
+                           </ul>
+                        </div>
+                        <div class="button-container mb-30">
+                           <div class="btn text-center">Prova gratis per 30 giorni</div>
+                        </div>
+                        <span class="d-block">oppure <a href="">acquista ora</a></span>
+                        <hr class="border w-hr mt-30">
+                        <h3 class="py-40">Punti Salienti del piano</h3>
+                        <ul class="unstyled-list">
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Nessun limite di spazio per i file</span></li>
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Cartelle offline su dispositivi mobili</span></li>
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Risparmio del 50% rispetto alle iscrizioni singole</span></li>
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Possibilità di inserire nuovi membri del Team</span></li>
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Gestione dei permessi in base ai ruoli</span></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- third card -->
+                  <div class="col-m-33 height-xl min-height">
+                     <div class="header-col py-20 text-center mb-border">
+                        <i class="fa-solid fa-building" style="color: #000000;"></i>
+                        <span class="">Azienda</span>
+                     </div>
+                     <div class="pxy-60-30">
+                        <h3 class=" mb-20">Enterprise</h3>
+                        <span class="weight-800 d-block py-10">Contattaci</span>
+                        <span class="d-block weight-300">-</span>
+                        <div class="list my-40">
+                           <ul class=" card-list unstyled-list">
+                              <li class="d-block py-10 align-middle"><i class="fa-solid fa-user" style="color: #000000;"></i><span class="align-middle ml-10">10 o più utenti</span></li>
+                              <li class="d-block py-10 vmiddle"><i class="fa-solid fa-folder" style="color: #000000;"></i><span class="align-middle ml-10">Soluzioni personabilizzabili per la tua azienda</span></li>
+                              <li class="d-block py-10 vmiddle"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i><span class="align-middle ml-10">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span></li>
+                           </ul>
+                        </div>
+                        <div class="button-container mb-30">
+                           <div class="btn text-center">Prova gratis per 30 giorni</div>
+                        </div>
+                        <span class="d-block">oppure <a href="">acquista ora</a></span>
+                        <hr class="border w-hr mt-30">
+                        <h3 class="py-40">Punti Salienti del piano</h3>
+                        <ul class="unstyled-list">
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">inviare file fino a 100GB con Dropbox Transfert</span></li>
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Cartello offline su dispositivi mobili</span></li>
+                           <li class="d-block py-10"><i class="fa-solid fa-check" style="color: #005eff;"></i><span class="ml-10">Cartello offline su dispositivi mobili</span></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-100 mt-10 py-20 bg-yellow"></div>
+                  <div class="col-100 py-50 bg-yellow"></div>
+               </div>
             </div>
-        </div>
-        <!-- second-section -->
-        <div class="bg-silver py-30 border">
+         </div>
+         <!-- second-section -->
+         <div class="bg-silver py-30 border">
             <div class="container">
-                <div class="row">
-                    <div class="col-60 bg-red height-xl"></div>
-                    <div class="col-40 bg-red height-xl"></div>
-                </div>
+               <div class="row">
+                  <div class="col-60 bg-red height-xl"></div>
+                  <div class="col-40 bg-red height-xl"></div>
+               </div>
             </div>
-        </div>
-        <!-- third-section -->
-        <div class="bg-silver py-30 border">
+         </div>
+         <!-- third-section -->
+         <div class="bg-silver py-30 border">
             <div class="container">
-                <div class="row">
-                    <div class="col-100 bg-yellow py-30"></div>
-                    <div class="container d-flex">
-                        <div class="col-33 height-l bg-light-blue border"></div>
-                        <div class="col-33 height-l bg-light-blue border"></div>
-                        <div class="col-33 height-l bg-light-blue border"></div>
-                        <div class="col-33 height-l bg-light-blue border"></div>
-                        <div class="col-33 height-l bg-light-blue border"></div>
-                        <div class="col-33 height-l bg-light-blue border"></div>
-                    </div>
-                    <div class="col-100 bg-yellow height-l"></div>    
-                </div>
+               <div class="row">
+                  <div class="col-100 bg-yellow py-30"></div>
+                  <div class="container d-flex">
+                     <div class="col-33 height-l bg-light-blue border"></div>
+                     <div class="col-33 height-l bg-light-blue border"></div>
+                     <div class="col-33 height-l bg-light-blue border"></div>
+                     <div class="col-33 height-l bg-light-blue border"></div>
+                     <div class="col-33 height-l bg-light-blue border"></div>
+                     <div class="col-33 height-l bg-light-blue border"></div>
+                  </div>
+                  <div class="col-100 bg-yellow height-l"></div>
+               </div>
             </div>
-        </div>
-        <!-- fourth-section -->
-        <div class="bg-silver">
+         </div>
+         <!-- fourth-section -->
+         <div class="bg-silver">
             <div class="d-flex">
-                <div class="col-33 bg-grey height-l border"></div>
-                <div class="col-33 bg-grey height-l border"></div>
-                <div class="col-33 bg-grey height-l border"></div>
+               <div class="col-33 bg-grey height-l border"></div>
+               <div class="col-33 bg-grey height-l border"></div>
+               <div class="col-33 bg-grey height-l border"></div>
             </div>
-        </div>
-        <!-- fifth-section -->
-        <div class="bg-silver py-10">
+         </div>
+         <!-- fifth-section -->
+         <div class="bg-silver py-10">
             <div class="container">
-                <div class="row">
-                    <div class="col-100 bg-red height-l"></div>
-                </div>
+               <div class="row">
+                  <div class="col-100 bg-red height-l"></div>
+               </div>
             </div>
-        </div>
-        <!-- sixth-section -->
-        <div class="bg-silver py-40 border">
+         </div>
+         <!-- sixth-section -->
+         <div class="bg-silver py-40 border">
             <div class="container">
-                <div class="row">
-                    <div class="col-100 bg-red height-xl"></div>
-                </div>
+               <div class="row">
+                  <div class="col-100 bg-red height-xl"></div>
+               </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="bg-black py-20">
+         </div>
+      </main>
+      <footer>
+         <div class="bg-black py-20">
             <div class="container">
-                <div class="row">
-                    <div class="col-20 bg-light-blue border height-xl"></div>
-                    <div class="col-20 bg-light-blue border height-xl"></div>
-                    <div class="col-20 bg-light-blue border height-xl"></div>
-                    <div class="col-20 bg-light-blue border height-xl"></div>
-                    <div class="col-20 bg-light-blue border height-xl"></div>
-                    <div class="col-100 bg-light-blue mt-10 border py-30"></div>
-                </div>
+               <div class="row">
+                  <div class="col-20 bg-light-blue border height-xl"></div>
+                  <div class="col-20 bg-light-blue border height-xl"></div>
+                  <div class="col-20 bg-light-blue border height-xl"></div>
+                  <div class="col-20 bg-light-blue border height-xl"></div>
+                  <div class="col-20 bg-light-blue border height-xl"></div>
+                  <div class="col-100 bg-light-blue mt-10 border py-30"></div>
+               </div>
             </div>
-        </div>
-    </footer>
-</body>
+         </div>
+      </footer>
+   </body>
 </html>
