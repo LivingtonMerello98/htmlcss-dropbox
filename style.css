@@ -411,6 +411,15 @@ header{
 .bg-brown{
     background-color: brown;
 }
+.bg-light-green{
+    background-color: #A2D39B;
+}
+.bg-bordeux{
+    background-color: #61082B;
+}
+.bg-violet{
+    background-color: #0093CE;
+}
 
 /*margin-border*/
 .mb-border{

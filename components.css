@@ -152,3 +152,30 @@ h2{
   .nav-menu li{
     padding: 0px 10px;
   }
+
+  .square-container{
+    width:100%;
+    min-height:300px;
+  }
+  .square{
+    width: calc(100% / 2);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .square img{
+    max-width: 50%;
+  }
+
+  /*filter*/
+  .filter{
+    filter: invert(100%);
+  }
+.p-color{
+  padding: 10px;
+  border: 10px solid #D1E9CD;
+}
+
+
